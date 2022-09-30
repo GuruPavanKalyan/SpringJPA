@@ -20,6 +20,7 @@ private custRepository serviceRepo;
 	this.serviceRepo.findAll().forEach(list::add);
 	return list;
 }
+	//public Customer getAllCustomer
 	public void addCustomer(Customer customer) {
 		this.serviceRepo.save(customer);
 	}
